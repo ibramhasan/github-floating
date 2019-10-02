@@ -1,0 +1,84 @@
+/*keseluruhan*/
+.Container{
+width: 950px;
+margin: auto;
+overflow: hidden;
+height: auto;
+font-family: 'Open Sans Condensed', sans-serif;
+}
+	.header {
+        background-color: white;
+        min-height: 50px;
+        color: DodgerBlue;
+        text-align: center;
+        }
+    .menu {
+        background-color: white;
+        min-height: 120px;
+        text-align: center;
+        color: DodgerBlue;
+        }
+    .menu a {
+            float: center;
+            display: block;
+            color: black;
+            text-align: center;
+            padding: 14px 16px;
+            text-decoration: none;
+        }
+
+        /* Change color on hover */
+        .menu a:hover {
+            background-color: #ddd;
+            color: white;
+        }
+        .menu ul {
+            padding: 0;
+        }
+
+        .menu ul li {
+            display: inline-block;
+        }
+
+        .menu ul li a {
+            padding: 10px 20px;
+            text-decoration: none;
+         }
+    /*isi*/
+    .Content {
+    	background-color: white;
+        min-height: 500px;
+        text-align: center;
+        overflow: hidden;
+        color: DodgerBlue;
+        }
+    .Artikel {
+    	background-color: white;
+        width: 500px;
+        min-height: 440px;
+        text-align: center;
+        float: left;
+        overflow: hidden;
+        color: DodgerBlue;
+    }
+    .Artikel img {
+        width: 220px;
+        height: 220px;
+        color: DodgerBlue;
+    }
+    .Sidebar {
+    	background-color: white;
+        width: 400px;
+        min-height: 440px;
+        text-align: center;
+        float: right;
+        overflow: hidden;
+        color: DodgerBlue;
+    }
+
+.footer {
+        background-color: #14040e;
+        min-height: 50px;
+        text-align: center;
+        color: gray;
+        }
